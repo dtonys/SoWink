@@ -1,0 +1,7 @@
+"esc :x" to save and exit in V
+"checkout branchname" to switch branch
+"git add filename" to add file
+"git branch" to display current branch
+"git status" to see current revision status
+"git commit" to commit all files
+"git push origin branchname" to push files to current branch

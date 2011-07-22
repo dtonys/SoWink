@@ -1,36 +1,47 @@
 $(document).ready(function(){
-   var firstName = $.trim($('#first-name').text());
-   var liked = false;                           //we would usually retrieve this value from the server somehow
-   
-   var triggered = false;
-   $('input[name="like_profile"]').click(function(){
-            //send data to server
-            if(!liked){
-                $.ajax({
-                    url: 'LikePopup.php',
-                    type: 'post',
-                    data: "firstName="+firstName,
-                    success: function(data){
-                        console.log(data);
-                        var responseData = jQuery.parseJSON(data);
-                        var responseMessage = responseData.message;
-                        $('#like-text').text(responseMessage).show();
-                        if (responseData.status === 'success')
-                            liked = true;
-                        $('[name="like_profile"]').attr('value', 'Liked');
+    "use strict";
+    var firstName = $.trim($('#first-name').text());
+                                      
+    var $likeProfileBtn = $('input[name="like_profile"]'),  //Button
+        $likeProfileForm = $likeProfileBtn.closest('form'); //Form
+    
+    function likeProfile(event){
+        event.preventDefault();
+        var $button = $(this);
+        
+        //Only proceed if button status is not liked
+        if($likeProfileBtn.data('status') != 'liked'){            
+            $.ajax({
+                url: '?action=like',
+                type: 'post',
+                data: $likeProfileForm.serialize(),
+                //disable double click
+                beforeSend: function() {
+                    if ($likeProfileForm.data('disabled')) {
+                        return false;
                     }
-                });
-            }
-            if(!triggered){
-                fade = window.setInterval(fadeButton, 4000);
-                triggered = true;
-            }
-            function fadeButton(){
-                clearInterval(fade);
-                $("#like-text").fadeOut("slow");
-                triggered = false;
-            }
-    //prevent the like submit from happening for the purposes of implementing the popup
-    return false;
-    });
+                },
+                //send data to server
+                success: function(data){
+                    var responseData = jQuery.parseJSON(data);
+                    var responseMessage = responseData.message;
+                    $('#like-text').text(responseMessage).show();
+                    if (responseData.status === 'success'){
+                        $button.attr('value', 'Liked');
+                        $likeProfileBtn.data('status','liked');
+                    }                            
+                }
+            });
+        }
+        
+        var fade = window.setInterval(fadeButton, 4000);
+        function fadeButton(){
+            clearInterval(fade);
+            $("#like-text").fadeOut("slow");
+        }
+    }
+    
+    //If button exists and status not liked
+    if ($likeProfileBtn.length && $likeProfileBtn.data('status') != 'liked')
+        $likeProfileBtn.click(likeProfile);
 });
