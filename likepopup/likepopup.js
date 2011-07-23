@@ -1,17 +1,18 @@
-﻿$(document).ready(function(){
+﻿$(document).ready(function() {
     "use strict";
-                                      
-    var $likeProfileBtn = $('input[name="like_profile"]'),  //Button
-        $likeProfileForm = $likeProfileBtn.closest('form'); //Form
-    
-    function likeProfile(event){
+    // Like button, form, and popup    
+    var $likeProfileBtn = $('input[name="like_profile"]'),
+        $likeProfileForm = $likeProfileBtn.closest('form'),
+        $likePopup = $('#like-text');
+        
+    function likeProfile(event) {
         event.preventDefault();
         var $button = $(this);
         
         //Only proceed if button status is not liked
-        if($likeProfileBtn.data('status') != 'liked'){            
+        if ($likeProfileBtn.data('status') != 'liked') {
             $.ajax({
-                url: '?action=like',
+                url: $likeProfileForm.attr('action'),
                 type: 'post',
                 data: $likeProfileForm.serialize(),
                 //disable double click
@@ -21,27 +22,29 @@
                     }
                 },
                 //send data to server
-                success: function(data){
+                success: function(data) {
                     var responseData = jQuery.parseJSON(data);
                     var responseMessage = responseData.message;
-                    $('#like-text').text(responseMessage).show();
-                    if (responseData.status === 'success'){
+                    //Display popup with message
+                    $likePopup.text(responseMessage).show();
+                    //If like succeeds, change like status
+                    if (responseData.status === 'success') {
                         $button.attr('value', 'Liked');
                         $likeProfileBtn.data('status','liked');
-                    }                            
+                    }
+                    
+                    //Popup fades away after given time
+                    var fade = window.setInterval(fadeButton, 4000);
+                    function fadeButton() {
+                        clearInterval(fade);
+                        $likePopup.fadeOut("slow");
+                    }
                 }
             });
         }
-        
-        //Calls fadeButton function after 4 sec
-        var fade = window.setInterval(fadeButton, 4000);
-        function fadeButton(){
-            clearInterval(fade);
-            $("#like-text").fadeOut("slow");
-        }
     }
-    
     //If button exists and status not liked
-    if ($likeProfileBtn.length && $likeProfileBtn.data('status') != 'liked')
+    if ($likeProfileBtn.length && $likeProfileBtn.data('status') != 'liked') {
         $likeProfileBtn.click(likeProfile);
+    }
 });

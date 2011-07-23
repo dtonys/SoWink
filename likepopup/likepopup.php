@@ -36,7 +36,7 @@ if($_GET['action'] == 'like'){
   <link rel="stylesheet" media="screen,projection,tv" href="http://ec2-50-18-184-255.us-west-1.compute.amazonaws.com/media/css/loggedin-min.css?build=de28549" />
 <link rel="stylesheet" media="screen,projection,tv" href="http://ec2-50-18-184-255.us-west-1.compute.amazonaws.com/media/css/users-min.css?build=de28549" />
 <link rel="stylesheet" media="screen,projection,tv" href="http://ec2-50-18-184-255.us-west-1.compute.amazonaws.com/media/css/create_date-min.css?build=de28549" />
-<link rel="stylesheet" media="screen,projection,tv" href="http://localhost/HTMLstuff/AJAX/Like Button/LikePopup.css" />  
+<link rel="stylesheet" media="screen,projection,tv" href="http://localhost/HTMLstuff/AJAX/Like Button/likepopup.css" />  
   <!--[if lte IE 7]>
 <link rel="stylesheet" media="screen,projection,tv" href="http://ec2-50-18-184-255.us-west-1.compute.amazonaws.com/media/css/ie-min.css?build=de28549" />
 <![endif]-->
@@ -1425,7 +1425,7 @@ if($_GET['action'] == 'like'){
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="http://localhost/HTMLstuff/AJAX/Like Button/LikePopup.js"></script>  
+<script src="http://localhost/HTMLstuff/AJAX/Like Button/likepopup.js"></script>  
 <script src="http://ec2-50-18-184-255.us-west-1.compute.amazonaws.com/media/js/common-min.js?build=de28549"></script>
   <script src="http://ec2-50-18-184-255.us-west-1.compute.amazonaws.com/media/js/loggedin-min.js?build=de28549"></script>
 <script src="http://ec2-50-18-184-255.us-west-1.compute.amazonaws.com/media/js/users-min.js?build=de28549"></script>
