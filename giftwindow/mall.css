@@ -1,0 +1,391 @@
+#send-gift-modal{
+    position: fixed;
+    height: 570px;
+    margin-left: 240px;
+    margin-top: -120px;
+    width: 715px;
+}
+
+#send-gift-modal h1 {
+    font-family: 'Trebuchet MS',Tahoma,Verdana,Helvetica,sans-serif;
+    color: #680DBD;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #E2E2E2;
+    padding: 0 0 18px 18px;
+}
+#content-container h2{
+    border-bottom: 1px dashed #E2E2E2;
+    color: #680DBD;
+    font-family: 'Trebuchet MS',Tahoma,Verdana,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 18px;
+    padding: 7px 18px 6px 0;
+}
+
+.button-gradient {
+  background: #9a41eb;
+  background: -moz-linear-gradient(top, #9a41eb 0%, #8b2be3 50%, #6715b3 50%, #7e1bd9 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a41eb), color-stop(50%, #8b2be3), color-stop(50%, #6715b3), color-stop(100%, #7e1bd9));
+  background: -webkit-linear-gradient(top, #9a41eb 0%, #8b2be3 50%, #6715b3 50%, #7e1bd9 100%);
+  background: -o-linear-gradient(top, #9a41eb 0%, #8b2be3 50%, #6715b3 50%, #7e1bd9 100%);
+  background: -ms-linear-gradient(top, #9a41eb 0%, #8b2be3 50%, #6715b3 50%, #7e1bd9 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #9a41eb 0%, #8b2be3 50%, #6715b3 50%, #7e1bd9 100%);
+  /* W3C */
+
+}
+.button-gradient-hover {
+  background: #a75cee;
+  /* Old browsers */
+
+  background: -moz-linear-gradient(top, #a75cee 0%, #9b49e7 50%, #7d1ada 50%, #9034e6 100%);
+  /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a75cee), color-stop(50%, #9b49e7), color-stop(50%, #7d1ada), color-stop(100%, #9034e6));
+  /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #a75cee 0%, #9b49e7 50%, #7d1ada 50%, #9034e6 100%);
+  /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #a75cee 0%, #9b49e7 50%, #7d1ada 50%, #9034e6 100%);
+  /* Opera11.10+ */
+
+  background: -ms-linear-gradient(top, #a75cee 0%, #9b49e7 50%, #7d1ada 50%, #9034e6 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #a75cee 0%, #9b49e7 50%, #7d1ada 50%, #9034e6 100%);
+  /* W3C */
+
+}
+.button-red-gradient {
+  background: #D33232;
+  background: -moz-linear-gradient(top, #c85151 0%, #e44949 50%, #d33232 50%, #b82626 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c85151), color-stop(50%, #dd4242), color-stop(50%, #d33232), color-stop(100%, #b82626));
+  background: -webkit-linear-gradient(top, #c85151 0%, #e44949 50%, #d33232 50%, #b82626 100%);
+  background: -o-linear-gradient(top, #c85151 0%, #e44949 50%, #d33232 50%, #b82626 100%);
+  background: -ms-linear-gradient(top, #c85151 0%, #e44949 50%, #d33232 50%, #b82626 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #c85151 0%, #e44949 50%, #d33232 50%, #b82626 100%);
+  /* W3C */
+
+}
+.button-red-gradient-hover {
+  background: #D73939;
+  background: -moz-linear-gradient(top, #ee5f5f 0%, #fb5858 50%, #d73939 50%, #cc2d2d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee5f5f), color-stop(50%, #fb5858), color-stop(50%, #d73939), color-stop(100%, #cc2d2d));
+  background: -webkit-linear-gradient(top, #ee5f5f 0%, #fb5858 50%, #d73939 50%, #cc2d2d 100%);
+  background: -o-linear-gradient(top, #ee5f5f 0%, #fb5858 50%, #d73939 50%, #cc2d2d 100%);
+  background: -ms-linear-gradient(top, #ee5f5f 0%, #fb5858 50%, #d73939 50%, #cc2d2d 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #ee5f5f 0%, #fb5858 50%, #d73939 50%, #cc2d2d 100%);
+  /* W3C */
+
+}
+#gift-order li {
+  display: inline-block;
+  padding: 0 6px;
+}
+#gift-order li a {
+  color: #a1a1a1;
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Helvetica, sans-serif;
+  font-weight: normal;
+}
+#gift-order li a:hover, #gift-order li a.active {
+  color: #464646;
+}
+.gifts h2 {
+  border-bottom: 1px dashed #e2e2e2;
+  color: #680dbd;
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 18px;
+  padding: 7px 18px 6px 0;
+}
+.gifts #gift-order {
+  position: absolute;
+  right: 18px;
+  top: 62px;
+}
+#list-gifts {
+  margin-left: 18px;
+}
+#list-gifts li.gift {
+  border-right: 1px dashed #e2e2e2;
+  border-bottom: 1px dashed #e2e2e2;
+  cursor: pointer;
+  float: left;
+  height: 146px;
+  padding: 10px 6px;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 126px;
+}
+#list-gifts li.gift:hover .g-image {
+  opacity: 0.7;
+}
+#list-gifts li.gift:hover .expanded-bg .g-image {
+  opacity: 1;
+}
+#list-gifts li.gift:nth-child(5n) {
+  border-right: 0;
+}
+#list-gifts li.gift.expanded {
+  cursor: default;
+}
+#list-gifts li.gift.expanded a {
+  cursor: pointer;
+}
+#list-gifts li.gift a {
+  cursor: default;
+}
+#list-gifts li.gift .g-image {
+  margin: 0 auto;
+}
+#list-gifts li.gift .g-image img {
+  max-height: 84px;
+  max-width: 84px;
+}
+#list-gifts li.gift .g-title {
+  color: #464646;
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Helvetica, sans-serif;
+  font-size: 11.5px;
+  line-height: 14px;
+}
+#list-gifts li.gift .expanded-msg, #list-gifts li.gift .expanded-p, #list-gifts li.gift span {
+  display: none;
+}
+#list-gifts li.gift.expanded {
+  text-align: left;
+}
+#list-gifts li.gift.expanded .close {
+  display: block;
+  background: url("http://sowink.dyloot.com/media/img/sprite-ui.png") no-repeat -52px -63px;
+  display: inline-block;
+  height: 14px;
+  position: absolute;
+  right: 18px;
+  text-indent: -1000em;
+  top: 18px;
+  width: 14px;
+  z-index: 1000;
+}
+#list-gifts li.gift.expanded .close:hover {
+  background: url("http://sowink.dyloot.com/media/img/sprite-ui.png") no-repeat -52px -78px;
+}
+#list-gifts li.gift.expanded .expanded-bg {
+  background: rgba(0, 0, 0, 0.2);
+  background: #f5f5f5;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #f5f5f5), color-stop(1, #ffffff));
+  background: -moz-linear-gradient(center bottom, #f5f5f5 0%, #ffffff 100%);
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -webkit-box-shadow: 0 1px 16px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 16px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 16px rgba(0, 0, 0, 0.4);
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Helvetica, sans-serif;
+  padding: 18px 18px 11px;
+  position: relative;
+  left: 3px;
+  top: -18px;
+  width: 235px;
+  z-index: 200;
+}
+#list-gifts li.gift.expanded .expanded-bg:hover .g-image {
+  opacity: 1;
+}
+#list-gifts li.gift.expanded .expanded-msg {
+  color: #a1a1a1;
+  clear: both;
+  display: block;
+  font-size: 11px;
+  z-index: 250;
+}
+#list-gifts li.gift.expanded .expanded-msg textarea {
+  color: #464646;
+  font-size: 10px;
+  height: 40px;
+  line-height: 12px;
+  width: 216px;
+}
+#list-gifts li.gift.expanded .g-title {
+  float: left;
+  margin-left: 11px;
+  width: 136px;
+  z-index: 250;
+}
+#list-gifts li.gift.expanded .g-title h3 {
+  color: #680dbd;
+  font-size: 12px;
+  line-height: 13px;
+}
+#list-gifts li.gift.expanded .g-title p {
+  color: #a1a1a1;
+  display: block;
+  text-align: left;
+}
+#list-gifts li.gift.expanded .g-image {
+  float: left;
+  position: inherit;
+  z-index: 250;
+}
+#list-gifts li.gift.expanded .g-currency {
+  font-size: 14px;
+  margin-top: 8px;
+  position: inherit;
+  text-align: center;
+  z-index: 250;
+}
+#list-gifts li.gift.expanded .g-currency form {
+  font-size: 14px;
+}
+#list-gifts li.gift.expanded .g-currency a {
+  color: #464646;
+  font-weight: normal;
+}
+#list-gifts li.gift.expanded .g-currency span {
+  color: #a1a1a1;
+  display: inline-block;
+}
+#list-gifts li.gift.expanded .g-currency .coins {
+  color: #e1b535;
+  padding-left: 25px;
+}
+#list-gifts li.gift.expanded .g-currency .coins div {
+  background: url('http://sowink.dyloot.com/media/img/sprite-ui.png') no-repeat -36px -312px;
+  height: 20px;
+  width: 20px;
+  top: -1px;
+}
+#list-gifts li.gift.expanded .g-currency .coins:hover {
+  color: #f5c949;
+}
+#list-gifts li.gift.expanded .g-currency .coins:hover div {
+  background-position: -36px -351px;
+}
+#list-gifts li.gift.expanded .g-currency .winkcash {
+  color: #86bc00;
+  padding-left: 35px;
+}
+#list-gifts li.gift.expanded .g-currency .winkcash div {
+  background: url('http://sowink.dyloot.com/media/img/sprite-ui.png') no-repeat -35px -332px;
+  height: 19px;
+  width: 30px;
+  top: -1px;
+}
+#list-gifts li.gift.expanded .g-currency .winkcash:hover {
+  color: #9ad014;
+}
+#list-gifts li.gift.expanded .g-currency .winkcash:hover div {
+  background-position: -35px -371px;
+}
+#list-gifts li.gift.expanded .modal {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  bottom: -14px;
+  color: #74a300;
+  font-size: 12px;
+  padding: 13px 17px;
+  text-align: left;
+  width: 200px;
+}
+#list-gifts li.gift.expanded .modal .close {
+  right: 10px;
+  top: 16px;
+}
+#list-gifts li.gift.expanded .modal .errorlist {
+  padding-right: 9px;
+}
+#list-gifts li.gift .close {
+  display: none;
+}
+#list-gifts li.gift .g-currency {
+  bottom: 7px;
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+#list-gifts li.gift .g-currency form {
+  display: inline-block;
+  font-size: 9px;
+}
+#list-gifts li.gift .g-currency .coins {
+  color: #a1a1a1;
+  display: inline;
+  font-family: Verdana, Tahoma, Helvetica, Arial, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding: 0 5px 0 15px;
+  position: relative;
+}
+#list-gifts li.gift .g-currency .coins div {
+  background: url('http://sowink.dyloot.com/media/img/sprite-ui.png') no-repeat -34px -283px;
+  height: 13px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 13px;
+}
+#list-gifts li.gift .g-currency .winkcash {
+  color: #a1a1a1;
+  display: inline;
+  font-family: Verdana, Tahoma, Helvetica, Arial, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding: 0 0 0 21px;
+  position: relative;
+}
+#list-gifts li.gift .g-currency .winkcash div {
+  background: url('http://sowink.dyloot.com/media/img/sprite-ui.png') no-repeat -47px -281px;
+  display: inline-block;
+  height: 12px;
+  left: 0;
+  position: absolute;
+  top: 1px;
+  width: 19px;
+}
+
+#main-content #side-links .coins {
+  color: #a1a1a1;
+  display: inline;
+  font-size: 18px;
+  position: relative;
+}
+#main-content #side-links .coins span {
+  background: url('http://sowink.dyloot.com/media/img/sprite-ui.png') no-repeat -34px -283px;
+  background: url('http://sowink.dyloot.com/media/img/sprite-ui.png') no-repeat -36px -312px;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  width: 20px;
+}
+#main-content #side-links .coins div {
+  padding: 0 15px 0 23px;
+}
+#main-content #side-links .winkcash {
+  color: #a1a1a1;
+  display: inline;
+  font-size: 18px;
+  padding: 0 5px 0 33px;
+  position: relative;
+}
+#main-content #side-links .winkcash span {
+  background: url('http://sowink.dyloot.com/media/img/sprite-ui.png') no-repeat -35px -332px;
+  height: 19px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+  top: 1px;
+}
+.mall-gifts #list-gifts li.gift {
+  cursor: default;
+}
