@@ -1,0 +1,27 @@
+#text, #counter{
+    display: inline;
+}
+
+.valid{
+    color: green;
+}
+
+.inactive{
+    color: default;
+}
+
+.active{
+    border-color: yellow;
+}
+
+.inactive {
+    border-color: blue;
+}
+
+.error {
+    border-color: red;
+}
+
+.complete {
+    border-color: green;
+}
