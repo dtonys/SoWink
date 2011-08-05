@@ -1,16 +1,22 @@
-#text, #counter{
-    display: inline;
+.text1,
+.counter1 {
+    display:inline;
 }
 
-.valid{
+.text2,
+.counter2 {
+    display:block;
+}
+
+.valid {
     color: green;
 }
 
-.inactive{
+.invalid {
     color: default;
 }
 
-.active{
+.active {
     border-color: yellow;
 }
 

@@ -1,15 +1,19 @@
 <html>
-<link rel="stylesheet" media="screen,projection,tv" href="http://localhost/HTMLstuff/AJAX/TextCounter/textcounter.css" />
+<link rel="stylesheet" media="screen,projection,tv" href="textcounter.css" />
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
-<script src="http://localhost/HTMLstuff/AJAX/TextCounter/textcounter.js"></script>
+<script src="textLimit.js"></script>
+<script src="textcounter.js"></script>
 <head>
 
 </head>
 <body>
-  <p>Write text in the box, 30 chars minimum</p>
-  <textarea id="text" class="inactive" name="notes" rows="4" columns="10">Hello</textarea>
-  <p id="counter" class="invactive"></p>
-  <p id="status"></p>
+  <p>Write text in the box, 60 chars minimum for the first and 30 char min for the second</p>
+  <textarea class="text1 " name="notes" rows="4" columns="10">Hello</textarea>
+  <p class="counter1"></p>
+
+  <textarea class="text2 " name="notes" rows="4" columns="10">Hello</textarea>
+  <p class="counter2"></p>
+
 </body>
 
 </html>
