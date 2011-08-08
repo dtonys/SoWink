@@ -1,0 +1,479 @@
+.button-gradient {
+  background: #9a4ce3;
+  background: -moz-linear-gradient(top, #9a4ce3 0%, #893ad3 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9a4ce3), color-stop(100%, #893ad3));
+  background: -webkit-linear-gradient(top, #9a4ce3 0%, #893ad3 100%);
+  background: -o-linear-gradient(top, #9a4ce3 0%, #893ad3 100%);
+  background: -ms-linear-gradient(top, #9a4ce3 0%, #893ad3 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #9a4ce3 0%, #893ad3 100%);
+  /* W3C */
+
+}
+.button-gradient-hover {
+  background: #B86AFF;
+  background: -moz-linear-gradient(top, #b86aff 0%, #a758f1 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #b86aff), color-stop(100%, #a758f1));
+  background: -webkit-linear-gradient(top, #b86aff 0%, #a758f1 100%);
+  background: -o-linear-gradient(top, #b86aff 0%, #a758f1 100%);
+  background: -ms-linear-gradient(top, #b86aff 0%, #a758f1 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #b86aff 0%, #a758f1 100%);
+  /* W3C */
+
+}
+.button-red-gradient {
+  background: #D33232;
+  background: -moz-linear-gradient(top, #c85151 0%, #b82626 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c85151), color-stop(100%, #b82626));
+  background: -webkit-linear-gradient(top, #c85151 0%, #b82626 100%);
+  background: -o-linear-gradient(top, #c85151 0%, #b82626 100%);
+  background: -ms-linear-gradient(top, #c85151 0%, #b82626 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #c85151 0%, #b82626 100%);
+  /* W3C */
+
+}
+.button-red-gradient-hover {
+  background: #D73939;
+  background: -moz-linear-gradient(top, #ee5f5f 0%, #cc2d2d 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ee5f5f), color-stop(100%, #cc2d2d));
+  background: -webkit-linear-gradient(top, #ee5f5f 0%, #cc2d2d 100%);
+  background: -o-linear-gradient(top, #ee5f5f 0%, #cc2d2d 100%);
+  background: -ms-linear-gradient(top, #ee5f5f 0%, #cc2d2d 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #ee5f5f 0%, #cc2d2d 100%);
+  /* W3C */
+
+}
+.button-meet-gradient {
+  background: #aebf90;
+  background: -moz-linear-gradient(top, #aebf90 0%, #9dae7e 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aebf90), color-stop(100%, #9dae7e));
+  background: -webkit-linear-gradient(top, #aebf90 0%, #9dae7e 100%);
+  background: -o-linear-gradient(top, #aebf90 0%, #9dae7e 100%);
+  background: -ms-linear-gradient(top, #aebf90 0%, #9dae7e 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #aebf90 0%, #9dae7e 100%);
+  /* W3C */
+
+}
+.button-green-gradient {
+  background: #8cb71c;
+  background: -moz-linear-gradient(top, #8cb71c 0%, #7aa60a 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #8cb71c), color-stop(100%, #7aa60a));
+  background: -webkit-linear-gradient(top, #8cb71c 0%, #7aa60a 100%);
+  background: -o-linear-gradient(top, #8cb71c 0%, #7aa60a 100%);
+  background: -ms-linear-gradient(top, #8cb71c 0%, #7aa60a 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #8cb71c 0%, #7aa60a 100%);
+  /* W3C */
+
+}
+.button-green-gradient-hover {
+  background: #a0ca36;
+  background: -moz-linear-gradient(top, #a0ca36 0%, #8fb924 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a0ca36), color-stop(100%, #8fb924));
+  background: -webkit-linear-gradient(top, #a0ca36 0%, #8fb924 100%);
+  background: -o-linear-gradient(top, #a0ca36 0%, #8fb924 100%);
+  background: -ms-linear-gradient(top, #a0ca36 0%, #8fb924 100%);
+  /* IE10+ */
+
+  background: linear-gradient(top, #a0ca36 0%, #8fb924 100%);
+  /* W3C */
+
+}
+#quizzes-info {
+  padding: 0 18px;
+}
+.error {
+  color: #e00;
+  margin-bottom: 4px;
+}
+.post-content .date div {
+  padding-top: 3px;
+  text-align: center;
+}
+.post-content ul {
+  margin-left: 18px;
+  padding-bottom: 12px;
+}
+.quizzes.profile-side #main-content {
+  width: 718px;
+}
+.quizzes.profile-side #main-content h1 {
+  padding: 0;
+  margin-left: 12px;
+}
+.quizzes.profile-side #main-content .top-metadata {
+  margin-left: 12px;
+}
+.quizzes.profile-side #main-content #main-tabs {
+  padding-left: 12px;
+}
+#main-content h2 label {
+  display: block;
+  font-size: 21px;
+  margin-bottom: 7px;
+}
+#main-content h2 .helptext {
+  display: block;
+  font-size: 10px;
+  font-style: italic;
+}
+#main-content h2 input {
+  font-size: 18px;
+  height: 28px;
+  width: 407px;
+}
+#main-content div.posts div.post:hover {
+  background: none;
+}
+#main-content ol.posts li.post:first-child {
+  border-top: 1px solid #e2e2e2;
+}
+#main-content .posts {
+  width: 718px;
+}
+#main-content .posts li.post {
+  padding: 0;
+  width: 718px;
+}
+#main-content .posts li.post .content {
+  margin-top: 9px;
+}
+#main-content .posts li.post .post-content {
+  position: relative;
+}
+#main-content .posts li.post .post-content li.other {
+  margin-top: 4px;
+}
+#main-content .posts li.post .post-content label.accepted {
+  color: #98d500;
+  font-weight: bold;
+}
+#main-content .content fieldset {
+  margin-bottom: 9px;
+}
+#main-content .content fieldset label.text {
+  display: inline-block;
+  margin-left: 6px;
+  width: 14px;
+}
+#main-content .content fieldset input[type="text"] {
+  width: 235px;
+}
+#main-content .content fieldset label.accept {
+  color: #a1a1a1;
+  display: inline-block;
+  margin-left: 4px;
+}
+#main-content .content fieldset label.accept input {
+  position: relative;
+  top: 2px;
+}
+#main-content .form-widget {
+  position: relative;
+}
+#main-content .form-widget input[type="submit"] {
+  margin: 10px 0 0 24px;
+}
+#main-content .form-widget .other {
+  left: 273px;
+  top: 13px;
+  position: absolute;
+}
+#main-content form .take-quiz {
+  margin: 18px;
+}
+#main-content form .take-quiz input {
+  margin-left: 84px;
+}
+#main-content ul.errorlist {
+  margin: 9px 18px 0;
+}
+.self #main-content .questions {
+  width: 728px;
+}
+.self #main-content .questions li {
+  width: 728px;
+}
+.self #main-content .questions li:hover {
+  -webkit-border-top-right-radius: 16px;
+  -moz-border-radius-topright: 16px;
+  border-top-right-radius: 16px;
+  -webkit-border-bottom-right-radius: 16px;
+  -moz-border-radius-bottomright: 16px;
+  border-bottom-right-radius: 16px;
+  padding-right: 8px;
+  width: 735px;
+}
+.self #main-content .questions li .delete {
+  display: none;
+  position: absolute;
+  right: -7px;
+}
+.self #main-content .questions li:hover .delete {
+  display: inline-block;
+}
+.profile-side #main-content .posts .post:hover {
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
+  width: 710px;
+}
+.stock-q #main-content .posts {
+  width: 728px;
+}
+
+.stock-q #main-content .posts .disabled {
+  /* for IE */
+  filter:alpha(opacity=50);
+  /* CSS3 standard */
+  opacity:0.5;
+}
+
+.stock-q #main-content .posts .post:nth-child(even) {
+  background: #f2f2f2;
+}
+.stock-q #main-content .posts .post:last-child {
+  -webkit-border-bottom-right-radius: 16px;
+  -moz-border-radius-bottomright: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.stock-q #main-content #questions-list .post {
+  width: 728px;
+}
+.personality #main-content h2 {
+  color: #680dbd;
+  font-size: 14px;
+  padding-top: 8px;
+}
+.personality #main-content p {
+  padding: 0 0 6px;
+}
+.personality #main-content #start-quiz {
+  width: 290px;
+  margin: 0 auto;
+  padding-top: 12px;
+}
+.personality #main-content #start-quiz .info {
+  color: #a1a1a1;
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Helvetica, sans-serif;
+  padding-left: 12px;
+}
+.personality #main-content #share-area {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  background: #f2e6f9;
+  border: 1px dashed #d9bfea;
+  max-width: 330px;
+  margin-top: 11px;
+  padding: 10px 12px 6px;
+}
+.personality #main-content #share-area p {
+  font-size: 10.5px;
+  line-height: 14px;
+}
+.personality #main-content #share-area ul {
+  margin-top: 1px;
+  min-height: 23px;
+}
+.personality #main-content #share-area ul li {
+  float: left;
+  margin-right: 10px;
+}
+.personality #main-content #share-area ul li:last-child {
+  margin-right: 0;
+}
+.personality #main-content #share-area ul .fb-share {
+  overflow: hidden;
+  width: 48px;
+}
+.personality #main-content #personality-image {
+  float: right;
+}
+.personality #main-content #personality-image .pers-image {
+  max-height: 300px;
+  max-width: 300px;
+}
+.personality #main-content #personality-incompatible .fold-img {
+  background: url('/media/img/sprite-ui.png') no-repeat -142px -264px;
+  float: left;
+  height: 32px;
+  margin: 9px 2px 0 0;
+  width: 42px;
+}
+.personality #main-content #personality-incompatible h2 {
+  color: #da3030;
+}
+.personality #main-content #personality-incompatible li {
+  max-width: 88px;
+}
+.personality #main-content #personality-incompatible .pers-image {
+  max-height: 100px;
+  max-width: 88px;
+}
+.personality #main-content #personality-friends .call-img {
+  background: url('/media/img/sprite-ui.png') no-repeat -138px -297px;
+  float: left;
+  height: 32px;
+  margin: 9px 3px 0 0;
+  width: 43px;
+}
+.personality #main-content #personality-friends h2 {
+  color: #a1a1a1;
+}
+.personality #main-content #personality-friends li {
+  max-width: 126px;
+}
+.personality #main-content #personality-friends .pers-image {
+  max-height: 140px;
+  max-width: 126px;
+}
+.personality #main-content #personality-compatible .allin-img {
+  background: url('/media/img/sprite-ui.png') no-repeat -142px -232px;
+  float: left;
+  height: 32px;
+  margin: 9px 4px 0 0;
+  width: 38px;
+}
+.personality #main-content #personality-compatible li {
+  max-width: 160px;
+}
+.personality #main-content .compatibility-section {
+  border-top: 1px dashed #e2e2e2;
+  clear: both;
+  margin-top: 14px;
+  overflow: hidden;
+}
+.personality #main-content .compatibility-section li {
+  float: left;
+  margin-right: 16px;
+}
+.personality #main-content .compatibility-section li:last-child {
+  margin-right: 0;
+}
+.personality #main-content .compatibility-section li:hover .pers-image {
+  opacity: 0.8;
+}
+.personality #main-content .compatibility-section li a {
+  text-align: center;
+}
+.personality #main-content .compatibility-section li a .personality-title {
+  line-height: 15px;
+  padding-top: 3px;
+}
+.personality #main-content .compatibility-section li .pers-image {
+  max-height: 180px;
+  max-width: 160px;
+}
+.personality #main-content #personality-types-list li {
+  float: left;
+  margin: 15px 16px 0 0;
+}
+.personality #main-content #personality-types-list li:last-child {
+  margin-right: 0;
+}
+.personality #main-content #personality-types-list li:hover .pers-image {
+  opacity: 0.8;
+}
+.personality #main-content #personality-types-list li a {
+  text-align: center;
+}
+.personality #main-content #personality-types-list li a .personality-title {
+  line-height: 15px;
+  padding-top: 3px;
+}
+.personality #main-content #personality-types-list li .pers-image {
+  max-width: 212px;
+}
+.personality #main-content #personality-questions li h1 {
+  font-size: 14px;
+}
+.personality #main-content #personality-questions li label {
+  display: block;
+}
+.personality #main-content .personality-prev {
+  display: block;
+  margin-top: 10px;
+}
+.personality #main-content .info {
+  color: #a1a1a1;
+  font-size: 10px;
+  padding-top: 12px;
+}
+.personality #main-content #personality-bar {
+  background: #d9f0ca;
+  height: 3px;
+  width: 100%;
+}
+.personality #main-content #personality-bar .progress {
+  background: #a9db88;
+  height: 3px;
+}
+.personality #main-content #content-container {
+  padding: 8px 18px;
+}
+.personality #main-content #sign-up-button {
+  position: relative;
+  top: -2px;
+}
+.personality #personality-progress {
+  font-family: Verdana, Tahoma, Helvetica, Arial, 'Trebuchet MS', sans-serif;
+  font-size: 10px;
+  padding: 8px 8px 0 18px;
+}
+.personality #personality-progress h2 {
+  color: #680dbd;
+  font-weight: bold;
+  padding: 6px 0 8px;
+}
+.personality #personality-progress li {
+  height: 18px;
+}
+.personality #personality-progress li a {
+  color: #464646;
+  font-weight: normal;
+}
+.personality #personality-progress li a:hover {
+  color: #a1a1a1;
+  text-decoration: underline;
+}
+.personality #personality-progress li.current a {
+  color: #a1a1a1;
+}
+#main-content #side-links.personality-percent {
+  color: #a1a1a1;
+  font-size: 26px;
+  font-weight: 500;
+}
+#main-content #side-links.personality-percent.prog-0 {
+  color: #c2c2c2;
+}
+#main-content #side-links.personality-percent.prog-1 {
+  color: #a7b683;
+}
+#main-content #side-links.personality-percent.prog-2 {
+  color: #a3c05d;
+}
+#main-content #side-links.personality-percent.prog-3 {
+  color: #9cc538;
+}
+#main-content #side-links.personality-percent.prog-4 {
+  color: #8bbe0c;
+}
+#main-content #side-links.personality-percent.prog-5 {
+  color: #7db000;
+}
