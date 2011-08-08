@@ -3,7 +3,7 @@
 
     //All 'add Qstn' buttons disabled by default
     $('input[name="add_question"]').attr('disabled', 'disabled')
-                                   .addClass('disabled');
+                                   .addClass('disable-button');
 
     if ($body.hasClass('create-question')) {
         var $q_form = $('#main-content form');
@@ -31,18 +31,18 @@
                 //disable all other Questions
                 if ($ans_accepted.filter(':checked').length >= 1) {
                     $curr_questn.removeAttr('disabled')
-                                .removeClass('disabled');
+                                .removeClass('disable-button');
                     $all_others.find('input[type="checkbox"]')
                                            .attr('disabled', 'disabled');
-                    $all_others.closest('.post').addClass('disabled');
+                    $all_others.closest('.post').addClass('disable-post');
                 }
                 else {
                 //If no answers checked, disable 'add Qstn' button
                 //and enable all other questions
                     $curr_questn.attr('disabled', 'disabled')
-                                .addClass('disabled');
+                                .addClass('disable-button');
                     $('input[type="checkbox"]').removeAttr('disabled');
-                    $all_others.closest('.post').removeClass('disabled');
+                    $all_others.closest('.post').removeClass('disable-post');
                 }
                 //If more than accept_limit answers checked,
                 //disable checkboxes within question

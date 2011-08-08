@@ -222,20 +222,40 @@
 .self #main-content .questions li:hover .delete {
   display: inline-block;
 }
-.profile-side #main-content .posts .post:hover {
-  -webkit-border-top-right-radius: 0;
-  -moz-border-radius-topright: 0;
-  border-top-right-radius: 0;
-  -webkit-border-bottom-right-radius: 0;
-  -moz-border-radius-bottomright: 0;
-  border-bottom-right-radius: 0;
-  width: 710px;
-}
+
 .stock-q #main-content .posts {
   width: 728px;
 }
 
-.stock-q #main-content .posts .disabled {
+.stock-q #main-content .posts .disable-button {
+  /* for IE */
+  filter:alpha(opacity=50);
+  /* CSS3 standard */
+  opacity:0.5;
+}
+
+.stock-q #main-content .posts .disable-button:hover {
+    background: #9A4CE3;
+    background: -moz-linear-gradient(top, #9A4CE3 0%, #893AD3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9A4CE3), color-stop(100%, #893AD3));
+    background: -webkit-linear-gradient(top, #9A4CE3 0%, #893AD3 100%);
+    background: -o-linear-gradient(top, #9A4CE3 0%, #893AD3 100%);
+    background: -ms-linear-gradient(top, #9A4CE3 0%, #893AD3 100%);
+    background: linear-gradient(top, #9A4CE3 0%, #893AD3 100%);
+    border: 0;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    color: white;
+    cursor: default;
+    font-family: Verdana, Tahoma, Helvetica, Arial, 'Trebuchet MS', sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 2px;
+    padding: 3px 9px 4px;
+}
+
+.stock-q #main-content .posts .disable-post {
   /* for IE */
   filter:alpha(opacity=50);
   /* CSS3 standard */
@@ -249,6 +269,20 @@
   -webkit-border-bottom-right-radius: 16px;
   -moz-border-radius-bottomright: 16px;
   border-bottom-right-radius: 16px;
+}
+
+.stock-q #main-content .posts .disable-post:hover {
+  /* for IE */
+  filter:alpha(opacity=50);
+  /* CSS3 standard */
+  opacity:0.5;
+  -webkit-border-top-right-radius: 0;
+  -moz-border-radius-topright: 0;
+  border-top-right-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  border-bottom-right-radius: 0;
+  width: 728px;
 }
 
 .stock-q #main-content #questions-list .post {
