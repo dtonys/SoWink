@@ -1,7 +1,7 @@
 /**
-* The textLimit function takes a textarea and imposes a minimum char
-* limit on it, displaying the # of chars left in a counter.  The border
-* of the textarea takes on different css elements based on its status.
+* The textlimit function imposes a min char limit on a textarea,
+* changing the border colors to signal valid/invalid number of chars
+*
 * The statuses for the textarea are: 
 * inactive - has not been touched since loading of page
 * active - currently selected and does not meet char minimum
@@ -15,10 +15,12 @@
 
 (function ($) {
     "use strict";
+    
     $.fn.extend({
+        
         //Called on textarea, pass in char counter, char min, counter message
-        textLimit: function (contents) {
-
+        textlimit: function (contents) {
+            
             var $textArea = this,
                 numChars = 0;
 
@@ -27,7 +29,7 @@
                 minChars: 0,
                 charMessage: ' chars remaining'
             };
-
+            
             //Override/Add default values with the ones passed in
 			$.extend(defaults, contents);
 
@@ -73,7 +75,6 @@
                              .addClass('active');
                 }
             });
-
 
             //Calculate chars in textbox upon keyup, display counter message
             $textArea.keyup(function () {
